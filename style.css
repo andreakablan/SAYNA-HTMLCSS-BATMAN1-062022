@@ -4,17 +4,6 @@ body {
     background-repeat: no-repeat;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    border: 1px solid #fff;
-}
-
-nav {
-    display: flex;
-    justify-content: ;
-}
-
 :root {
     --yellow-color: #FFFF00;
     --yellow-light: #f8f184;
@@ -30,7 +19,6 @@ nav {
 
 @font-face {
     font-family: 'Rajdhani';
-    src: url(./police/Rajdhani-Medium.ttf);
 }
 
 h1 {
@@ -42,7 +30,7 @@ h1 {
 h1 {
     color: red;
     font-family: 'Rajdhani';
-    font-weight: 400;
+    font-weight:
 }
 
 button {
@@ -70,7 +58,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 30px;
 }
 
 ul {
@@ -92,8 +80,28 @@ nav ul a:hover {
 }
 
 
-/* Design de la partie en tete Hero */
+/* Design la partie en tete Hero */
 
-#hero {
-    background-image: url();
+
+/* design  la partie batman personnage */
+
+.batman-personnage {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* design  la partie NEMESIS */
+
+.NEMESIS {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* design la patie ALLIES */
+
+.ALLIES {
+    display: flex;
+    justify-content: space-between;
 }
