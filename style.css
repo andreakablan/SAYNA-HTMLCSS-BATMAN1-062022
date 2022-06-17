@@ -1,107 +1,346 @@
-body {
-    background-color: red;
-    margin: 0 102px;
-    background-repeat: no-repeat;
-}
-
-:root {
-    --yellow-color: #FFFF00;
-    --yellow-light: #f8f184;
-    --blue-color: #19587d;
-    --white-color: #fff;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'Rajdhani';
-}
-
-h1 {
-    font-family: rajdhani;
-    font-size: 36px;
-    font-weight: 400;
-}
-
-h1 {
-    color: red;
-    font-family: 'Rajdhani';
-    font-weight:
-}
-
-button {
-    font-family: 'Rajdhani';
-    font-size: 20px;
-    font-weight: 400;
-}
-
-.Container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Space-Grotesk';
-    font-weight: 300;
-}
-
-
-/*Design de la navigation */
-
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    color: var(--white-color);
-    font-size: 25px;
-    font-weight: 500;
-    font-family: 'Rajdhani';
-}
-
-
-/*text-decoration. none; */
-
-nav ul a:hover {
-    color: var(--yellow-color);
-}
-
-
-/* Design la partie en tete Hero */
-
-
-/* design  la partie batman personnage */
-
-.batman-personnage {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* design  la partie NEMESIS */
-
-.NEMESIS {
-    display: flex;
-    justify-content: space-between;
-}
-
-
-/* design la patie ALLIES */
-
-.ALLIES {
-    display: flex;
-    justify-content: space-between;
-}
+     body {
+         background-color: black;
+         margin: 0 100px;
+         background-repeat: no-repeat;
+     }
+     
+      :root {
+         --yellow-color: #FFFF00;
+         --yellow-light: #f8f184;
+         --blue-color: #19587d;
+         --white-color: #fff;
+     }
+     
+     * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+     }
+     
+     @font-face {
+         font-family: 'Rajdhani';
+         src: url(../Police/Rajdhani-Medium.ttf);
+     }
+     
+     h1 {
+         font-family: rajdhani;
+         font-size: 36px;
+         font-weight: 400;
+     }
+     
+     h1 {
+         color: white;
+         font-family: 'Rajdhani';
+         font-weight:
+     }
+     
+     button {
+         font-family: 'Rajdhani';
+         font-size: 20px;
+         font-weight: 400;
+     }
+     
+     .Container {
+         width: 80%;
+         margin: 0 auto;
+     }
+     
+     body {
+         background-color: black;
+         color: white;
+         font-family: 'Space Grotesk';
+         font-weight: 300;
+     }
+     
+     header {
+         margin-bottom: 30px;
+     }
+     
+     .menu {
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 30px;
+         border: 2px solid white;
+         margin: 0 auto;
+     }
+     
+     ul {
+         list-style: none;
+     }
+     
+     .container .menu ul li a {
+         color: var(--white-color);
+         font-size: 25px;
+         font-weight: 500;
+         font-family: 'Rajdhani';
+     }
+     
+     .container .menu ul li a:hover {
+         color: #FFFF00;
+     }
+     
+     nav ul a:hover {
+         color: var(--yellow-color);
+     }
+     
+     #hero {
+         width: 100%;
+         margin: 0 auto;
+         display: inline;
+     }
+     
+     #hero .container .content {
+         width: 100%;
+         margin: 0 auto;
+         display: inline;
+         text-align: center;
+     }
+     
+     #hero .container .content .texte {
+         padding-bottom: 20px;
+         padding: 30px;
+         text-align: center;
+         font-size: 25px;
+     }
+     
+     #hero .container .content .titre {
+         margin-bottom: 30px;
+         text-align: center;
+     }
+     
+     #hero img {
+         display: block;
+         margin: 0 auto;
+         margin-top: 40px;
+         justify-content: center;
+     }
+     
+     .fleche {
+         margin-top: 150px;
+     }
+     
+     #hero .container .content .cta {
+         width: 60%;
+         margin: 0 auto;
+         justify-content: space-between;
+         padding-top: 50px;
+         padding-bottom: 200px;
+         text-align: center;
+     }
+     
+     #hero .container .content .cta .btn {
+         width: 300px;
+         height: 40px;
+         margin: 0 auto;
+         margin-left: 40px;
+         padding: 30px;
+         color: var(--white-color);
+         text-decoration: none;
+         background: linear-gradient(to right, white, #fa12128f);
+         box-shadow: var(--black-color) 5px 5px 60px;
+     }
+     
+     .scroll {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         position: fixed;
+         right: 60px;
+         top: 80px;
+         display: 60PX;
+     }
+     
+     #batman-cinema,
+     #batman-justive-laegue {
+         margin-top: 200px;
+     }
+     
+     .batman-personnage {
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     #batman-cinema .titre,
+     #batman-justive-laegue .titre {
+         text-transform: uppercase;
+         font-weight: bold;
+         margin: 30px 0;
+     }
+     
+     #batman-cinema .description,
+     #batman-justive-laegue .description {
+         margin-bottom: 40px;
+         text-align: justify;
+         width: 80%;
+         font-size: 20px
+     }
+     
+     #batman-cinema .personnage-info {
+         text-align: center;
+     }
+     
+     .NEMESIS {
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     #NEMESIS {
+         margin-top: 200PX;
+     }
+     
+     #NEMESIS .titre {
+         text-transform: uppercase;
+         font-weight: bold;
+         margin: 30px 0;
+     }
+     
+     #NEMESIS .description {
+         margin-bottom: 40px;
+         text-align: justify;
+         width: 80%;
+         font-size: 21px;
+     }
+     
+     #NEMESIS .personnage-info {
+         text-align: center;
+     }
+     
+     .ALLIES {
+         display: flex;
+         justify-content: space-between;
+     }
+     
+     #ALLIES {
+         margin-top: 200PX;
+     }
+     
+     #ALLIES .titre {
+         text-transform: uppercase;
+         font-weight: bold;
+         margin: 30px 0;
+     }
+     
+     #ALLIES .description {
+         margin-bottom: 40px;
+         text-align: justify;
+         width: 80%;
+         font-size: 20px;
+     }
+     
+     #ALLIES .personnage-info {
+         text-align: center;
+     }
+     
+     #batman-justive-laegue {
+         margin-bottom: 40px;
+         text-align: justify;
+         width: 80%;
+         font-size: 21px;
+     }
+     
+     #multimedia button {
+         position: relative;
+         top: 160px;
+         background: none;
+         border: none;
+     }
+     
+     #multimedia button.right {
+         right: -90%;
+     }
+     
+     #multimedia .slider-multimedia {
+         display: flex;
+         width: 60%;
+         margin: 40px auto;
+     }
+     
+     #multimedia .slider-image {
+         width: 100%;
+     }
+     
+     #multimedia .slider-content {
+         padding: 15px;
+         background-color: #727272;
+         border-top-right-radius: 20px;
+         border-bottom-right-radius: 20px;
+     }
+     
+     #multimedia p {
+         font-size: 15px;
+     }
+     
+     #multimedia .yellow {
+         color: var(--yellow-color);
+     }
+     
+     .batman-personnage {
+         display: flex;
+         justify-content: space-between;
+     }
+     /*--disign de la partie contacte--*/
+     
+     #contact {
+         background-color: darkslategray;
+         padding: 70px 0;
+     }
+     
+     #contact .form {
+         width: 50%;
+         margin: 0 auto;
+     }
+     
+     #contact h2 {
+         text-align: center;
+         font-size: 32px;
+         margin-bottom: 32px;
+     }
+     
+     #contact .titre {
+         display: block;
+         margin: 28px 0;
+     }
+     
+     #contact .form input[type='email'],
+     textarea {
+         display: block;
+         border-top: none;
+         border-right: none;
+         border-top: none;
+         width: 80%;
+         border-bottom: 2px solid rgb(120, 120, 120);
+         background-color: transparent;
+         padding-top: 10px 0;
+     }
+     
+     #contact .news {
+         margin: 15px 0;
+         border-bottom: 2px solid rgb(120, 120, 120);
+     }
+     
+     #contact .icon img {
+         transform: rotate(90deg);
+         width: 20px;
+     }
+     
+      ::-webkit-input-placeholder {
+         color: #f8f184;
+         font-size: 15px;
+     }
+     
+      ::-moz-placeholder {
+         color: #f8f184;
+         font-size: 15px;
+     }
+     
+      ::-ms-input-placeholder {
+         color: #f8f184;
+         font-size: 15px;
+     }
+     
+      ::-ms-input-placeholder {
+         color: #f8f184;
+         font-size: 15px;
+     }
